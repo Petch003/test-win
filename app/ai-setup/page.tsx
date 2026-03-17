@@ -58,9 +58,15 @@ export default function AISetup() {
               </Link>
               <Link 
                 href="/ai-setup" 
-                className="bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-md text-sm font-medium transition-colors"
+                className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
               >
                 AI Setup
+              </Link>
+              <Link 
+                href="/login" 
+                className="bg-blue-600 text-white hover:bg-blue-700 px-4 py-2 rounded-md text-sm font-medium transition-colors"
+              >
+                Login
               </Link>
             </div>
           </div>
